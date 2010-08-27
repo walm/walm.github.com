@@ -10,7 +10,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{{ page.title }}</title>
+  <title>Andreas Wålm - webbutveckare och tekniknörd</title>
   <meta name="description" content="My personal blogg about stuff that maters to me">
   <meta name="author" content="Andreas Wålm">
 
@@ -42,7 +42,7 @@
 <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
 
-  <div id="container" class="type-{{ page.type }}">
+  <div id="container" class="type-home">
     <header>
       <h1><a href="/">Andreas W&aring;lm</a></h1>
       <input type="text" name="s" id="searchbox" placeholder="Sök.."/>
@@ -50,16 +50,44 @@
 
       <div id="menu">
       <ul>
-        <li><a href="/" {% if page.type == 'home' %}class="active"{% endif %}>Hem</a></li>
-        <li><a href="/about.html" {% if page.url contains 'about.html' %}class="active"{% endif %}>Om</a></li>
-        <li><a href="/contact.html" {% if page.url contains 'contact.html' %}class="active"{% endif %}>Kontakta</a></li>
+        <li><a href="/" class="active">Hem</a></li>
+        <li><a href="/about.html" >Om</a></li>
+        <li><a href="/contact.html" >Kontakta</a></li>
       </ul>
       </div>
     </header>
 
     <div id="main">
 
-      {{ content }}
+      <small>Senaste:</small>
+
+<div class="post">
+  <h2 class="title"><a href="/2010/08/nu-ska-vi-se-om-det-fungerar.html">Nu ska vi se om det fungerar </a></h2>
+  
+  <p>Här är bara en liten beskrivning som endast kan vara på en rad antar jag, blir att testa om det går att ha fler efter denna test.</p>
+  
+  <p class="more"><a href="/2010/08/nu-ska-vi-se-om-det-fungerar.html">L&auml;s resten av denna post »</a></p>
+  <p class="meta">
+    Skapat <span class="datetime">27 Aug 2010</span>
+    
+    <span class="tags">Tags:  <a href="/Test">Test</a>  <a href="/Ruby">Ruby</a>  <a href="/Wow">Wow</a>  </span>
+    
+  </p>
+  <p class="tools">Dela med via <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
+</div>
+
+
+<small>Tidigare:</small>
+<div id="previous">
+  <ul>
+     
+     <li><h2><span class="date">13 Jul 2010</span> <a href="/2010/07/en-gamal-test-bara.html">En gamal test bara</a></h2></li>
+     
+  </ul>
+</div>
+
+
+
 
     </div>
 

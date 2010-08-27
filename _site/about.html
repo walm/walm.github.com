@@ -10,7 +10,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{{ page.title }}</title>
+  <title>Andreas Wålm - webbutveckare och tekniknörd</title>
   <meta name="description" content="My personal blogg about stuff that maters to me">
   <meta name="author" content="Andreas Wålm">
 
@@ -42,7 +42,7 @@
 <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
 
-  <div id="container" class="type-{{ page.type }}">
+  <div id="container" class="type-page">
     <header>
       <h1><a href="/">Andreas W&aring;lm</a></h1>
       <input type="text" name="s" id="searchbox" placeholder="Sök.."/>
@@ -50,16 +50,29 @@
 
       <div id="menu">
       <ul>
-        <li><a href="/" {% if page.type == 'home' %}class="active"{% endif %}>Hem</a></li>
-        <li><a href="/about.html" {% if page.url contains 'about.html' %}class="active"{% endif %}>Om</a></li>
-        <li><a href="/contact.html" {% if page.url contains 'contact.html' %}class="active"{% endif %}>Kontakta</a></li>
+        <li><a href="/" >Hem</a></li>
+        <li><a href="/about.html" class="active">Om</a></li>
+        <li><a href="/contact.html" >Kontakta</a></li>
       </ul>
       </div>
     </header>
 
     <div id="main">
 
-      {{ content }}
+      <div class="post">
+  <h2>Vem är jag?</h2>
+
+<p>Jag är en utvecklare som är mest inriktad på webb. Har också ett intresse för teknik och prylar.</p>
+
+<p>Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.</p>
+
+<p>Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.</p>
+
+<p>Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.</p>
+
+</div>
+
+
 
     </div>
 

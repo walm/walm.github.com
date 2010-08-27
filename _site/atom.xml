@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Andreas Wålm</title>
+ <link href="http://andreas.walm.se/atom.xml" rel="self"/>
+ <link href="http://andreas.walm.se/"/>
+ <updated>2010-08-27T16:55:08+02:00</updated>
+ <id>http://andreas.walm.se/</id>
+ <author>
+   <name>Andreas Wålm</name>
+   <email>andreas@walm.net</email>
+ </author>
+
+ 
+ <entry>
+   <title>Nu ska vi se om det fungerar</title>
+   <link href="http://andreas.walm.se/2010/08/nu-ska-vi-se-om-det-fungerar.html"/>
+   <updated>2010-08-27T00:00:00+02:00</updated>
+   <id>http://andreas.walm.se/2010/08/nu-ska-vi-se-om-det-fungerar</id>
+   <content type="html">&lt;h1&gt;En header av typ h1 eller&lt;/h1&gt;
+
+&lt;p&gt;Vem vill inte ha en blogg som är som denna. Skit kul att editera i vim eller hur!&lt;/p&gt;
+
+&lt;h2&gt;Header av typ H2 och den ska ju vara mindre&lt;/h2&gt;
+
+&lt;p&gt;Vi gör en &lt;a href=&quot;http://google.com&quot;&gt;Länk&lt;/a&gt; till Google&lt;/p&gt;
+
+&lt;h3&gt;Hedaer av typ h3&lt;/h3&gt;
+
+&lt;p&gt;Lite test
+som ska höra ihop&lt;/p&gt;
+
+&lt;p&gt;mer text i ny p antar jag&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>En gamal test bara</title>
+   <link href="http://andreas.walm.se/2010/07/en-gamal-test-bara.html"/>
+   <updated>2010-07-13T00:00:00+02:00</updated>
+   <id>http://andreas.walm.se/2010/07/en-gamal-test-bara</id>
+   <content type="html">&lt;h1&gt;Balb albla bla&lt;/h1&gt;
+
+&lt;p&gt;Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

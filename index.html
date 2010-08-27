@@ -1,0 +1,34 @@
+---
+layout: default
+title: Andreas Wålm - webbutveckare och tekniknörd
+type: home
+---
+
+<small>Senaste:</small>
+{% for post in site.posts limit:1 %}
+<div class="post">
+  <h2 class="title"><a href="{{ post.url }}">{{ post.title }} </a></h2>
+  {% if post.description %}
+  <p>{{ post.description }}</p>
+  {% endif %}
+  <p class="more"><a href="{{ post.url }}">L&auml;s resten av denna post »</a></p>
+  <p class="meta">
+    Skapat <span class="datetime">{{ post.date | date_to_string }}</span>
+    {% if post.tags %}
+    <span class="tags">Tags: {% for tag in post.tags %} <a href="/{{ tag }}">{{ tag }}</a> {% endfor %} </span>
+    {% endif %}
+  </p>
+  <p class="tools">Dela med via <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
+</div>
+{% endfor %}
+
+<small>Tidigare:</small>
+<div id="previous">
+  <ul>
+     {% for post in site.posts offset:1 %}
+     <li><h2><span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+     {% endfor %}
+  </ul>
+</div>
+
+

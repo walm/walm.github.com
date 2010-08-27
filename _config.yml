@@ -1,1 +1,12 @@
+auto: false
 markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:title.html
+exclude:
+- Gemfile
+- Gemfile.lock
+- Rakefile
+- README.markdown
+- config.ru
+- test.html
+
