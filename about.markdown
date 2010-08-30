@@ -3,12 +3,13 @@ layout: page
 title: Andreas Wålm - webbutveckare och tekniknörd
 ---
 
-## Vem är jag?
+## Jag ..
 
-Jag är en utvecklare som är mest inriktad på webb. Har också ett intresse för teknik och prylar.
+* är en 31'årig webbutvecklar från Stockholm, Sverige. Bor tillsammans med min underbara Sofia och vår härliga son Theo i Skärgårdstad, Åkersberga.
 
-Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.
+* gillar en massa saker men framförallt tekniska prylar relaterade till datorer och Internet, feta motorer såna som sitter i dragsters (startade [Walmracing](http://walmracing.se) dragracing team) och skön design sånt som Apple gör.
 
-Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.
+* kodar i det mesta men är bäst på javascript, c#, php och ruby.
 
-Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.
+
+
