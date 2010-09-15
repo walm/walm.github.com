@@ -18,7 +18,7 @@ type: post
     {% include share_tools.html %}
 </div>
 
-{% unless site.related_posts | size is 0 %} 
+{% unless site.related_posts %} 
 <small>Liknande:</small>
 <div id="previous">
   <ul>
@@ -29,3 +29,6 @@ type: post
 </div>
 {% endunless %}
 
+{% unless page.nocomments %}
+<div id="disqus_thread"></div>
+{% endunless %}
