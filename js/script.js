@@ -84,7 +84,16 @@ var disqus_developer = (location.href.indexOf('http://localhost') != -1 ? 1 : 0)
       });
 
   //select on focus in searchbox
-  $('#searchbox').focus(function(){ $(this).select(); });
+  $('#searchbox').focus(
+      function(){
+        $(this).attr('data-preval', $(this).val());
+        $(this).val('');
+      }).focusout(
+        function(){
+          var val = $(this).val();
+          if (val.trim() == '')
+            $(this).val($(this).attr('data-preval'));
+        });
 
   // disqus plugin
   (function() {
