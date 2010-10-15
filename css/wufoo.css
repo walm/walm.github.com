@@ -22,7 +22,7 @@ li.wu-input input:focus {
 #saveForm, #saveForm:visited {
   border: none;
   margin: 0;
-  background: #222 url(http://andreas.walm.net/img/alert-overlay.png) repeat-x;
+  background: #222 url(http://andreas.walm.se/images/awesome-button-bg.png) repeat-x;
   display: inline-block;
   padding: 5px 10px 6px;
   color: #fff;

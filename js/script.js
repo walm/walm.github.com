@@ -1,6 +1,11 @@
 /* Author: Andreas Wålm
-
 */
+
+// globals
+var disqus_developer = (location.href.indexOf('http://localhost') != -1 ? 1 : 0), 
+    disqus_shortname = 'awalm';
+// var disqus_iframe_css = '';
+
 (function($){
 
   //from http://twitter.com/javascripts/blogger.js
@@ -39,6 +44,7 @@
     return status;
   }
 
+  
   //get latest tweets
   $.getJSON("http://twitter.com/statuses/user_timeline/walming.json?count=1&callback=?",
       function(data){
@@ -59,7 +65,7 @@
         $.each(photos, function(index, photo) {
           var url = 'http://farm'+ photo.farm +'.static.flickr.com/'+ photo.server +'/'+ photo.id +'_'+ photo.secret,
           title = photo.title;
-          $('<li><div class="image"><a href="http://www.flickr.com/photos/walm/'+ photo.id +'" target="_blank"><img src="'+ url +'_s.jpg" border="0" title="'+ title +'" width="80" height="80"/></a></div></li>').appendTo('#flickr ul');
+        $('<li><div class="image"><a href="http://www.flickr.com/photos/walm/'+ photo.id +'" target="_blank"><img src="'+ url +'_s.jpg" border="0" title="'+ title +'" width="80" height="80"/></a></div></li>').appendTo('#flickr ul');
         });
       }
     }catch(error){ console.log('Cant load photos from flickr'); }
@@ -78,7 +84,30 @@
       });
 
   //select on focus in searchbox
-  $('#searchbox').focus(function(){ $(this).select(); });
+  $('#searchbox').focus(
+      function(){
+        $(this).attr('data-preval', $(this).val());
+        $(this).val('');
+      }).focusout(
+        function(){
+          var val = $(this).val();
+          if (val.trim() == '')
+            $(this).val($(this).attr('data-preval'));
+        });
+
+  // disqus plugin
+  (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://awalm.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+    var s = document.createElement('script'); 
+    s.async = true;
+    s.src = 'http://disqus.com/forums/awalm/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  })();
 
   //add translate select to top right (at moment not enabled as I'm not done)
   // $.getScript('http://jquery-translate.googlecode.com/files/jquery.translate-1.3.9.min.js', function(){ //when the script is loaded
@@ -111,11 +140,11 @@ function shorten_url(url, callback){
 }
 
 function share_on_twitter(title, url){
-  shorten_url('http://andreas.walm.se'+ url, function(short_url){ 
-    var status = title +' '+ short_url,
+  shorten_url('http://andreas.walm.se'+ url, function(short_url){
+      var status = title +' '+ short_url,
       share_url = "http://twitter.com/home?status="+ status +"&source=shareaholic";
-    location.href = share_url;
-  });
+      location.href = share_url;
+      });
 }
 
 function share_on_facebook(title, url){
