@@ -3,13 +3,17 @@ layout: page
 title: Andreas Wålm - webbutveckare och tekniknörd
 ---
 
+![Andreas Wålm](/images/andreas-walm-in-frame-comicifyed.jpg)
+
 ## Jag ..
 
-* är en 31'årig webbutvecklar från Stockholm, Sverige. Bor tillsammans med min underbara Sofia och vår härliga son Theo i Skärgårdstad, Åkersberga.
+* är en 31'årig [frilansande webbutvecklar](http://www.walm.net) i Stockholm, Sverige.
 
-* gillar en massa saker men framförallt tekniska prylar relaterade till datorer och Internet, feta motorer såna som sitter i dragsters (startade [Walmracing](http://walmracing.se) dragracing team) och skön design sånt som Apple gör.
+* bor tillsammans med min underbara Sofia och vår härliga son Theo i [Skärgårdstad, Åkersberga](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Sk%C3%A4rg%C3%A5rdsstad,+%C3%96ster%C3%A5ker+Municipality,+Sweden&z=12).
 
-* kodar i det mesta men är bäst på javascript, c#, php och ruby.
+* gillar tekniska prylar relaterat till datorer, mobiler, internet och skön design sånt som Apple gör.
 
+* kodar med vim och är bäst på html, javascript, objectiv-c, php och ruby.
 
+* fördriver fritiden med [Walmracing](http://walmracing.se), ett dragracing team som jag och brorsan driver.
 

@@ -1,5 +1,4 @@
 /* Author: Andreas Wålm
-
 */
 
 // globals
@@ -45,6 +44,7 @@ var disqus_developer = (location.href.indexOf('http://localhost') != -1 ? 1 : 0)
     return status;
   }
 
+  
   //get latest tweets
   $.getJSON("http://twitter.com/statuses/user_timeline/walming.json?count=1&callback=?",
       function(data){
