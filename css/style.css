@@ -213,6 +213,9 @@ span.date,
 span.datetime,
 small { color: #777; }
 
+pre { background: #eee; }
+blockquote { padding-left: 20px !important; }
+
 input#searchbox {
   padding: 5px;
   font-size: 1em;
