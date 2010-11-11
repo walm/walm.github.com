@@ -96,7 +96,7 @@ var disqus_developer = (location.href.indexOf('http://localhost') != -1 ? 1 : 0)
         });
 
   // disqus plugin
-  (function() {
+  location.href != 'http://andreas.walm.se/' && (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
