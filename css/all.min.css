@@ -1,1 +1,465 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}body{font:13px/1.231 sans-serif;*font-size:small;}table{font-size:inherit;font:100%;}select,input,textarea,button{font:99% sans-serif;}pre,code,kbd,samp{font-family:monospace,sans-serif;}body,select,input,textarea{color:#444;}h1,h2,h3,h4,h5,h6{font-weight:bold;}html{overflow-y:scroll;}a:hover,a:active{outline:none;}a,a:active,a:visited{color:#607890;}a:hover{color:#036;}ul,ol{margin-left:1.8em;}ol{list-style-type:decimal;}small{font-size:85%;}strong,th{font-weight:bold;}td,td img{vertical-align:top;}sub{vertical-align:sub;font-size:smaller;}sup{vertical-align:super;font-size:smaller;}pre{padding:15px;white-space:pre;white-space:pre-wrap;white-space:pre-line;word-wrap:break-word;}input[type="radio"]{vertical-align:text-bottom;}input[type="checkbox"]{vertical-align:bottom;}.ie7 input[type="checkbox"]{vertical-align:baseline;}.ie6 input{vertical-align:text-bottom;}label,input[type=button],input[type=submit],button{cursor:pointer;}input:invalid{border-radius:1px;-moz-box-shadow:0 0 5px red;-webkit-box-shadow:0 0 5px red;box-shadow:0 0 5px red;}.no-boxshadow input:invalid{background-color:#f0dddd;}::-moz-selection{background:#FF5E99;color:#fff;text-shadow:none;}::selection{background:#FF5E99;color:#fff;text-shadow:none;}a:link{-webkit-tap-highlight-color:#FF5E99;}button{width:auto;overflow:visible;}.ie7 img{-ms-interpolation-mode:bicubic;}.ir{display:block;text-indent:-999em;overflow:hidden;background-repeat:no-repeat;text-align:left;direction:ltr;}.hidden{display:none;visibility:hidden;}.visuallyhidden{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);}.invisible{visibility:hidden;}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.clearfix{zoom:1;}h1,h2,p,a,input,#twitter{font-family:'Myriad Pro',Arial,Helvetica,Tahoma,sans-serif!important;}a{ color:#21759B;}span.date,span.datetime,small{color:#777;}pre{background:#eee;}blockquote{ padding-left:20px!important;}input#searchbox{padding:5px;font-size:1em;color:#ccc;outline:none;background:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#fff));background:-moz-linear-gradient(top,#eee,#fff);border:1px solid #ccc;}input#searchbox:focus{color:#777!important;-webkit-box-shadow:0 0 5px #007eff;-moz-box-shadow:0 0 5px #007eff;box-shadow:0 0 5px #007eff;}#toolbar{position:absolute;top:1px;width:99%;text-align:right;padding-right:10px;}#container{width:830px;margin:100px auto 30px;}header{ ;}header a{text-decoration:none;}header h1{font-size:3em;font-weight:normal;}header h2{font-size:1.5em;font-weight:normal;padding-left:160px;color:#777;}header #searchbox{display:inline;float:right;width:180px;margin-right:10px;}#menu{margin:50px 0;}#menu a{font-size:1em;color:#444;}#menu a.active{border-bottom:1px solid red;}#menu ul{margin-left:0;}#menu ul li{ display:list-item;float:left;list-style:none;padding-right:20px;}#main{clear:both;display:inline;float:left;width:550px;margin:30px 0 0 0;}div.post{margin:0 0 30px 0;}div.post h2.title{font-size:2em;padding:10px 0 10px 0;line-height:1.5em;}div.post h2.title a{text-decoration:none;color:#444;}div.post h1,div.post h2,div.post h3{padding:10px 0 10px 0;}div.post h1{font-size:2em;line-height:1.5em;}div.post h2{font-size:1.5em;line-height:1.5em;}div.post h3{font-size:1.2em;line-height:1.2em;}div.post p{padding-bottom:10px;font-size:1.2em;line-height:1.5em;}div.post p.more{margin-bottom:20px;}div.post p.more a{text-decoration:none;font-size:1em;border-bottom:1px dotted #ccc;}#container.type-post div.post p.meta{margin-top:40px;}div.post p.meta,div.post p.tools{color:#777;font-size:.8em;line-height:1em;}#previous{border-top:1px solid #ccc;}#previous ul{margin:10px 0 0 0;}#previous ul li{display:list-item;list-style:none;padding:10px 0 10px 0;}#previous h2 span{font-size:.8em;color:#777;}#sidebar{display:inline;float:right;width:200px;margin:30px 0 0 0;}#twitter{margin:10px 0 30px 0;width:190px;}#twitter p{line-height:1.5em;font-size:1em;padding:10px;background:#eee;}#twitter p.meta,#twitter p.tools{font-size:.8em;color:#777;text-align:right;padding:0 10px 10px 0;}#twitter p.meta{font-style:italic;padding-bottom:5px;}#flickr,#zootools{margin:10px 0 30px 0;}#flickr ul,#zootools ul{margin-left:0;}#flickr ul li,#zootools ul li{display:list-item;float:left;list-style:none;width:85px;height:85px;margin:0 5px 5px 0;padding:5px 0 0 5px;border:1px solid #ccc;}#flickr p,#zootools p{font-size:.8em;color:#777;text-align:right;padding-right:10px;}footer{clear:both;text-align:left;padding-top:150px;color:#777;}.awesome,.awesome:visited{border:none;margin:0;background:#222 url(/images/awesome-button-bg.png?jcb=1284409329) repeat-x;display:inline-block;padding:5px 10px 6px;color:#fff;text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);text-shadow:0 -1px 1px rgba(0,0,0,0.25);border-bottom:1px solid rgba(0,0,0,0.25);position:relative;cursor:pointer;}.awesome:hover{background-color:#111;color:#fff;}.awesome:active{top:1px;}.small.awesome,.small.awesome:visited{font-size:11px;padding:;}.awesome,.awesome:visited,.medium.awesome,.medium.awesome:visited{font-size:13px;font-weight:bold;line-height:1;text-shadow:0 -1px 1px rgba(0,0,0,0.25);}.large.awesome,.large.awesome:visited{font-size:14px;padding:8px 14px 9px;}.green.awesome,.green.awesome:visited{background-color:#91bd09;}.green.awesome:hover{background-color:#749a02;}.blue.awesome,.blue.awesome:visited{background-color:#2daebf;}.blue.awesome:hover{background-color:#007d9a;}.red.awesome,.red.awesome:visited{background-color:#e33100;}.red.awesome:hover{background-color:#872300;}.magenta.awesome,.magenta.awesome:visited{background-color:#a9014b;}.magenta.awesome:hover{background-color:#630030;}.orange.awesome,.orange.awesome:visited{background-color:#ff5c00;}.orange.awesome:hover{background-color:#d45500;}.yellow.awesome,.yellow.awesome:visited{background-color:#ffb515;}.yellow.awesome:hover{background-color:#fc9200;}@media print{*{background:transparent!important;color:#444!important;text-shadow:none!important;}a,a:visited{color:#444!important;text-decoration:underline;}a:after{content:"(" attr(href) ")";}abbr:after{content:"(" attr(title) ")";}.ir a:after{content:"";}pre,blockquote{border:1px solid #999;page-break-inside:avoid;}img{page-break-inside:avoid;}@page{margin:.5cm;}p,h2,h3{orphans:3;widows:3;}h2,h3{page-break-after:avoid;}}@media screen and(max-device-width:480px){#container{ width:550px!important;}#sidebar{ display:none;}}#container{ width:550px!important;}#sidebar{ display:none;}.highlight{background:#fff;}.highlight .c{color:#998;font-style:italic;}.highlight .err{color:#a61717;background-color:#e3d2d2;}.highlight .k{font-weight:bold;}.highlight .o{font-weight:bold;}.highlight .cm{color:#998;font-style:italic;}.highlight .cp{color:#999;font-weight:bold;}.highlight .c1{color:#998;font-style:italic;}.highlight .cs{color:#999;font-weight:bold;font-style:italic;}.highlight .gd{color:#000;background-color:#fdd;}.highlight .gd .x{color:#000;background-color:#faa;}.highlight .ge{font-style:italic;}.highlight .gr{color:#a00;}.highlight .gh{color:#999;}.highlight .gi{color:#000;background-color:#dfd;}.highlight .gi .x{color:#000;background-color:#afa;}.highlight .go{color:#888;}.highlight .gp{color:#555;}.highlight .gs{font-weight:bold;}.highlight .gu{color:#aaa;}.highlight .gt{color:#a00;}.highlight .kc{font-weight:bold;}.highlight .kd{font-weight:bold;}.highlight .kp{font-weight:bold;}.highlight .kr{font-weight:bold;}.highlight .kt{color:#458;font-weight:bold;}.highlight .m{color:#099;}.highlight .s{color:#d14;}.highlight .na{color:#008080;}.highlight .nb{color:#0086B3;}.highlight .nc{color:#458;font-weight:bold;}.highlight .no{color:#008080;}.highlight .ni{color:#800080;}.highlight .ne{color:#900;font-weight:bold;}.highlight .nf{color:#900;font-weight:bold;}.highlight .nn{color:#555;}.highlight .nt{color:#000080;}.highlight .nv{color:#008080;}.highlight .ow{font-weight:bold;}.highlight .w{color:#bbb;}.highlight .mf{color:#099;}.highlight .mh{color:#099;}.highlight .mi{color:#099;}.highlight .mo{color:#099;}.highlight .sb{color:#d14;}.highlight .sc{color:#d14;}.highlight .sd{color:#d14;}.highlight .s2{color:#d14;}.highlight .se{color:#d14;}.highlight .sh{color:#d14;}.highlight .si{color:#d14;}.highlight .sx{color:#d14;}.highlight .sr{color:#009926;}.highlight .s1{color:#d14;}.highlight .ss{color:#990073;}.highlight .bp{color:#999;}.highlight .vc{color:#008080;}.highlight .vg{color:#008080;}.highlight .vi{color:#008080;}.highlight .il{color:#099;}
+/*
+  style.css contains a reset, font normalization and some base styles.
+
+  credit is left where credit is due.
+  additionally, much inspiration was taken from these projects:
+    yui.yahooapis.com/2.8.1/build/base/base.css
+    camendesign.com/design/
+    praegnanz.de/weblog/htmlcssjs-kickstart
+*/
+
+/*
+  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+  html5doctor.com/html-5-reset-stylesheet/
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+nav ul { list-style:none; }
+
+blockquote, q { quotes:none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
+
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+
+/* tables still need cellspacing="0" in the markup */
+table { border-collapse:collapse; border-spacing:0; }
+
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+
+input, select { vertical-align:middle; }
+
+/* END RESET CSS */
+
+
+/* fonts.css from the YUI Library: developer.yahoo.com/yui/
+   Please refer to developer.yahoo.com/yui/fonts/ for font sizing percentages
+
+  There are two custom edits:
+   * remove arial, helvetica from explicit font stack
+   * we normalize monospace styles ourselves
+*/
+body { font:13px/1.231 sans-serif; *font-size:small; } /* hack retained to preserve specificity */
+
+table { font-size:inherit; font: 100%; }
+
+select, input, textarea, button { font:99% sans-serif; }
+
+/* normalize monospace sizing
+ * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
+ */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+
+/*
+ * minimal base styles
+ */
+
+
+/* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
+body, select, input, textarea { color: #444; }
+
+/* Headers (h1,h2,etc) have no default font-size or margin,
+   you'll want to define those yourself. */
+h1,h2,h3,h4,h5,h6 { font-weight: bold; }
+
+html {
+  /* always force a scrollbar in non-IE */
+  overflow-y: scroll;
+}
+
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: none; }
+
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+
+ul, ol { margin-left: 1.8em; }
+ol { list-style-type: decimal; }
+
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align: top; }
+
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+pre {
+  padding: 15px;
+
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+/* align checkboxes, radios, text inputs with their label
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+
+/* colors for form validity */
+input:valid   {  }
+input:invalid {
+      border-radius: 1px;
+    -moz-box-shadow: 0px 0px 5px red;
+ -webkit-box-shadow: 0px 0px 5px red;
+         box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid { background-color: #f0dddd; }
+
+
+/* These selection declarations have to be separate.
+   No text-shadow: twitter.com/miketaylr/status/12228805301
+   Also: hot pink. */
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+/* make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+
+/* bicubic resizing for non-native sized IMG:
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+
+
+/*
+ * Non-semantic helper classes
+ */
+
+/* for image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+
+/* Hide for both screenreaders and browsers
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders
+   www.webaim.org/techniques/css/invisiblecontent/
+   Solution from: j.mp/visuallyhidden - Thanks Jonathan Neal! */
+.visuallyhidden { position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* >> The Magnificent CLEARFIX << j.mp/phayesclearfix */
+.clearfix:after  { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; }
+
+
+
+
+
+
+ /* Primary Styles
+    Author: Andreas Wålm <andreas@walm.net>
+ */
+h1, h2, p, a, input, #twitter { font-family: 'Myriad Pro', Arial, Helvetica, Tahoma, sans-serif !important; } /* font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif; */
+
+a { color: #21759B; }
+span.date,
+span.datetime,
+small { color: #777; }
+
+pre { background: #eee; margin-bottom: 10px; }
+blockquote { padding-left: 20px !important; }
+
+input#searchbox {
+  padding: 5px;
+  font-size: 1em;
+  color: #ccc;
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));
+  background: -moz-linear-gradient(top,  #eee,  #fff);
+  border: 1px solid #ccc;
+}
+
+input#searchbox:focus {
+  color: #777 !important;
+  -webkit-box-shadow: 0px 0px 5px #007eff;
+  -moz-box-shadow: 0px 0px 5px #007eff;
+  box-shadow: 0px 0px 5px #007eff;
+}
+
+#toolbar { position: absolute; top: 1px; width: 99%; text-align: right; padding-right: 10px; }
+#container { width: 830px; margin: 100px auto 30px; }
+
+header {  }
+  header a { text-decoration: none; }
+  header h1 { font-size: 3em; font-weight: normal; }
+  header h2 { font-size: 1.5em; font-weight: normal; padding-left: 160px; color: #777; }
+  header #searchbox { display: inline; float: right; width: 180px; margin-right: 10px; }
+
+  #menu { margin: 50px 0; }
+    #menu a { font-size: 1em; color: #444; }
+    #menu a.active { border-bottom: 1px solid red; }
+    #menu ul { margin-left: 0; }
+    #menu ul li { display: list-item; float:left; list-style: none; padding-right: 20px; }
+
+#main { clear:both; display: inline; float: left; width: 550px; margin: 30px 0 0 0; }
+  div.post { margin: 0 0 30px 0; }
+    div.post h2.title { font-size: 2em; padding: 10px 0 10px 0; line-height: 1.5em; }
+    div.post h2.title a { text-decoration: none; color: #444; }
+    div.post h1,
+    div.post h2,
+    div.post h3 { padding: 10px 0 10px 0; }
+    div.post h1 { font-size: 2em; line-height: 1.5em; }
+    div.post h2 { font-size: 1.5em; line-height: 1.5em; }
+    div.post h3 { font-size: 1.2em; line-height: 1.2em; }
+    div.post p { padding-bottom: 10px; font-size: 1.2em; line-height: 1.5em; }
+    div.post p.more { margin-bottom: 20px; }
+    div.post p.more a { text-decoration: none; font-size: 1em; border-bottom: 1px dotted #ccc; }
+    #container.type-post div.post p.meta { margin-top: 40px; }
+    div.post p.meta,
+    div.post p.tools { color: #777; font-size: 0.8em; line-height: 1em; }
+
+  #previous { border-top: 1px solid #ccc; }
+    #previous ul { margin: 10px 0 0 0; }
+    #previous ul li { display: list-item; list-style: none; padding: 10px 0 10px 0; }
+    #previous h2 span { font-size: 0.8em; color: #777; }
+
+#sidebar { display: inline; float: right; width: 200px; margin: 30px 0 0 0; }
+
+  #twitter { margin: 10px 0 30px 0; width: 190px; }
+    #twitter p { line-height: 1.5em; font-size: 1em; padding: 10px; background: #eee; }
+    #twitter p.meta,
+    #twitter p.tools { font-size: 0.8em; color: #777; text-align: right; padding: 0 10px 10px 0; }
+    #twitter p.meta { font-style: italic; padding-bottom: 5px; }
+
+  #flickr,
+  #zootools { margin: 10px 0 30px 0; }
+    #flickr ul,
+    #zootools ul { margin-left: 0; }
+    #flickr ul li,
+    #zootools ul li { display: list-item; float: left; list-style: none; width: 85px; height: 85px; margin: 0 5px 5px 0; padding: 5px 0 0 5px; border: 1px solid #ccc; }
+    #flickr p,
+    #zootools p { font-size: 0.8em; color: #777; text-align: right; padding-right: 10px; }
+
+footer { clear:both; text-align: left; padding-top: 150px; color: #777; }
+
+
+/*
+ * Awsome CSS3 buttons from http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba
+ */
+.awesome,
+.awesome:visited {
+  border: none;
+  margin: 0;
+  background: #222 url(/images/awesome-button-bg.png?jcb=1288460851) repeat-x;
+  display: inline-block;
+  padding: 5px 10px 6px;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+}
+.awesome:hover  { background-color: #111; color: #fff; }
+.awesome:active { top: 1px; }
+.small.awesome,
+.small.awesome:visited  { font-size: 11px; padding: ; }
+.awesome,
+.awesome:visited,
+.medium.awesome,
+.medium.awesome:visited  { font-size: 13px; font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+.large.awesome,
+.large.awesome:visited  { font-size: 14px; padding: 8px 14px 9px; }
+.green.awesome,
+.green.awesome:visited  { background-color: #91bd09; }
+.green.awesome:hover  { background-color: #749a02; }
+.blue.awesome,
+.blue.awesome:visited  { background-color: #2daebf; }
+.blue.awesome:hover { background-color: #007d9a; }
+.red.awesome,
+.red.awesome:visited  { background-color: #e33100; }
+.red.awesome:hover  { background-color: #872300; }
+.magenta.awesome,
+.magenta.awesome:visited  { background-color: #a9014b; }
+.magenta.awesome:hover  { background-color: #630030; }
+.orange.awesome,
+.orange.awesome:visited  { background-color: #ff5c00; }
+.orange.awesome:hover { background-color: #d45500; }
+.yellow.awesome,
+.yellow.awesome:visited  { background-color: #ffb515; }
+.yellow.awesome:hover { background-color: #fc9200; }
+
+
+
+
+
+/*
+ * print styles
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
+
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+
+  a:after { content: " (" attr(href) ")"; }
+
+  abbr:after { content: " (" attr(title) ")"; }
+
+  .ir a:after { content: ""; }  /* Don't show links for images */
+
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+
+  img { page-break-inside: avoid; }
+
+  @page { margin: 0.5cm; }
+
+  p, h2, h3 { orphans: 3; widows: 3; }
+
+  h2, h3{ page-break-after: avoid; }
+}
+
+
+
+/*
+ * Media queries for responsive design
+ */
+
+@media all and (orientation:portrait) {
+  /* Style adjustments for portrait mode goes here */
+
+}
+
+@media all and (orientation:landscape) {
+  /* Style adjustments for landscape mode goes here */
+
+}
+
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+
+  #container { width: 550px !important; }
+  #sidebar { display: none; }
+
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
+     j.mp/textsizeadjust
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+#container { width: 550px !important; }
+#sidebar { display: none; }
+
+
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
