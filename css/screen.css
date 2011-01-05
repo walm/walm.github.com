@@ -1,0 +1,449 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* layout */
+/* line 33, ../sass/screen.scss */
+#container {
+  margin: 0 auto;
+  width: 640px;
+}
+
+/* line 38, ../sass/screen.scss */
+header {
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 200px;
+  float: left;
+}
+
+/* line 45, ../sass/screen.scss */
+nav {
+  margin-top: 112px;
+  margin-right: 10px;
+  width: 300px;
+  float: right;
+}
+
+/* line 52, ../sass/screen.scss */
+#content {
+  position: relative;
+  width: 640px;
+  overflow: hidden;
+}
+/* line 57, ../sass/screen.scss */
+#content #card-slider {
+  position: relative;
+  width: 2400px;
+  height: 330px;
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+}
+/* line 64, ../sass/screen.scss */
+#content #card-slider .card {
+  float: left;
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+/* line 72, ../sass/screen.scss */
+#content #footer {
+  position: absolute;
+  bottom: 0px;
+  height: 45px;
+  width: 100%;
+}
+
+/* line 80, ../sass/screen.scss */
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 86, ../sass/screen.scss */
+.clear {
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* font and color */
+/* line 95, ../sass/screen.scss */
+body {
+  font-family: "Myriad Pro","Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  color: #444444;
+  background: #cdd3df url("/images/bg.jpg");
+}
+
+/* line 101, ../sass/screen.scss */
+h1, h2 {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+/* line 106, ../sass/screen.scss */
+h3, h4 {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* line 111, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+/* line 4, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 115, ../sass/screen.scss */
+header a, nav a {
+  color: #666;
+}
+/* line 118, ../sass/screen.scss */
+header a:hover, header a.current, nav a:hover, nav a.current {
+  text-decoration: none;
+  color: #333;
+  text-shadow: #aaaaaa 1px 1px 1px;
+}
+
+/* line 125, ../sass/screen.scss */
+header h1 {
+  opacity: 0;
+}
+
+/* line 129, ../sass/screen.scss */
+nav {
+  font-size: 12px;
+}
+
+/* line 133, ../sass/screen.scss */
+#content {
+  font-size: 14px;
+}
+/* line 136, ../sass/screen.scss */
+#content p {
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+
+/* line 142, ../sass/screen.scss */
+footer, footer a {
+  font-size: 10px;
+  color: #777;
+}
+
+/* GUI */
+/* line 156, ../sass/screen.scss */
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 160, ../sass/screen.scss */
+nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 45, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+nav ul li:first-child, nav ul li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+nav ul li:last-child, nav ul li.last {
+  padding-right: 0;
+}
+
+/* line 166, ../sass/screen.scss */
+#item-pick {
+  position: absolute;
+  z-index: 10;
+  width: 17px;
+  height: 17px;
+  margin-top: -6px;
+  margin-left: 507px;
+  background: url("/images/item-pick.png") no-repeat;
+}
+
+/* line 176, ../sass/screen.scss */
+#content {
+  border: solid 1px #a4acb5;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  -ms-border-bottom-left-radius: 10px;
+  -khtml-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  -ms-border-bottom-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-box-shadow: #8f969e 0 2px 5px 0;
+  -webkit-box-shadow: #8f969e 0 2px 5px 0;
+  -o-box-shadow: #8f969e 0 2px 5px 0;
+  box-shadow: #8f969e 0 2px 5px 0;
+  background: white;
+}
+/* line 182, ../sass/screen.scss */
+#content #footer {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  background: #292929;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #383838), color-stop(100%, #2a2a2a));
+  background-image: -moz-linear-gradient(top, #383838 0%, #2a2a2a 100%);
+  background-image: linear-gradient(top, #383838 0%, #2a2a2a 100%);
+  -moz-box-shadow: #6b6b6b 0 1px 1px 0 inset;
+  -webkit-box-shadow: #6b6b6b 0 1px 1px 0 inset;
+  -o-box-shadow: #6b6b6b 0 1px 1px 0 inset;
+  box-shadow: #6b6b6b 0 1px 1px 0 inset;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  -ms-border-bottom-left-radius: 10px;
+  -khtml-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  -ms-border-bottom-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 190, ../sass/screen.scss */
+#content #footer .icon {
+  float: left;
+  background: url('/images/icons.png?1294325326') no-repeat;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  margin-right: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+/* line 197, ../sass/screen.scss */
+#content #footer .icon.twitter {
+  background-position: 0px 0px;
+}
+/* line 199, ../sass/screen.scss */
+#content #footer .icon.twitter:hover {
+  background-position: 0px -24px;
+}
+/* line 204, ../sass/screen.scss */
+#content #footer .icon.facebook {
+  background-position: -24px 0px;
+}
+/* line 206, ../sass/screen.scss */
+#content #footer .icon.facebook:hover {
+  background-position: -24px -24px;
+}
+/* line 211, ../sass/screen.scss */
+#content #footer .icon.flickr {
+  background-position: -48px 0px;
+}
+/* line 213, ../sass/screen.scss */
+#content #footer .icon.flickr:hover {
+  background-position: -48px -24px;
+}
+/* line 219, ../sass/screen.scss */
+#content #footer #feed {
+  float: left;
+  width: 550px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+/* line 227, ../sass/screen.scss */
+#content #footer #feed .text {
+  margin-top: 50px;
+  float: left;
+  font-size: 11px;
+  color: #aca9a9;
+  padding-top: 7px;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+/* line 236, ../sass/screen.scss */
+#content #footer #feed .text a {
+  color: #c8e128;
+}
+/* line 241, ../sass/screen.scss */
+#content #footer #feed .time {
+  margin-top: 50px;
+  float: left;
+  font-size: 10px;
+  white-space: nowrap;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #525252;
+  color: #aca9a9;
+  padding: 5px;
+}
+/* line 253, ../sass/screen.scss */
+#content #footer #links {
+  float: right;
+  width: 68px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+
+/* cards */
+/* line 264, ../sass/screen.scss */
+#me div {
+  background: url("/images/andreas-walm.jpg") no-repeat;
+  height: 233px;
+  padding-top: 40px;
+  padding-left: 170px;
+  color: white;
+  text-shadow: #a6a6a6 0 1px 5px;
+}
+/* line 272, ../sass/screen.scss */
+#me div h2 {
+  font-size: 38px;
+  line-height: 60px;
+}
+/* line 276, ../sass/screen.scss */
+#me div p {
+  width: 410px;
+  font-size: 14px;
+}
+
+/* animations for card-slider, fallback to jQuery in main.js */
+/* line 285, ../sass/screen.scss */
+.transitions header h1 {
+  -moz-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 291, ../sass/screen.scss */
+.transitions #item-pick {
+  -moz-transition-property: margin-left;
+  -webkit-transition-property: margin-left;
+  -o-transition-property: margin-left;
+  transition-property: margin-left;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 297, ../sass/screen.scss */
+.transitions #card-slider {
+  -moz-transition-property: left, height;
+  -webkit-transition-property: left, height;
+  -o-transition-property: left, height;
+  transition-property: left, height;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 303, ../sass/screen.scss */
+.transitions #feed .text, .transitions #feed .time {
+  -moz-transition-property: margin-top;
+  -webkit-transition-property: margin-top;
+  -o-transition-property: margin-top;
+  transition-property: margin-top;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}

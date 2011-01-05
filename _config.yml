@@ -8,5 +8,8 @@ exclude:
 - Rakefile
 - README.markdown
 - config.ru
+- config.rb
 - test.html
+- sass
+- images/src
 

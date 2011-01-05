@@ -3,152 +3,83 @@
 <head>
   <meta charset="utf-8">
 
-  <!-- www.phpied.com/conditional-comments-block-downloads/ -->
-  <!--[if IE]><![endif]-->
-
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-       Remove this if you use the .htaccess -->
+  <!-- Always force latest IE rendering engine & Chrome Frame -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Andreas Wålm - a blog</title>
-  <meta name="description" content="My personal blogg about stuff that maters to me">
+  <title>Andreas Wålm a developer</title>
+  <meta name="description" content="Andreas Wålm a developer, engineer, consultant and entrepreneur from Stockholm, Sweden">
   <meta name="author" content="Andreas Wålm">
 
-  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
 
-  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+  <link rel="stylesheet" href="/css/screen.css">
+  <!--[if IE]>
+      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif] -->
 
-  <!-- CSS : implied media="all" -->
-  <link rel="stylesheet" href="css/style.css?v=1">
-
-  <!-- For the less-enabled mobile browsers like Opera Mini -->
-  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">
-
-
-  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="js/modernizr-1.5.min.js"></script>
-
+  <script src="/js/head.min.js"></script>
 </head>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-
-<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+<body>
 
   <div id="container">
     <header>
-      <h1><a href="/">Andreas W&aring;lm</a></h1>
-      <input type="text" name="s" id="searchbox" placeholder="Sök.."/>
-      <h2>webbutvecklare och teknikn&ouml;rd</h2>
-
-      <div id="menu">
-      <ul>
-        <li><a href="#" class="active">Hem</a></li>
-        <li><a href="#">Om</a></li>
-        <li><a href="#">Kontakta</a></li>
-      </ul>
-      </div>
+      <h1><a href="/" rel="me">Andreas Wålm</a></h1>
     </header>
 
-    <div id="main">
+    <nav>
+      <ul>
+        <li><a href="/" rel="me" class="current">Me</a>
+        <li><a href="/work.html" rel="work" >Work</a>
+        <li><a href="/contact.html" rel="contact" >Contact</a>
+      </ul>
+    </nav>
 
-      <small>Senaste:</small>
-      <div class="post">
-        <h2><a href="#">Hur jag skapa denna blogg med hjälp av lite enkla opensource verktyg.</a></h2>
-        <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent...</p>
-        <p class="more"><a href="#">L&auml;s resten av denna post »</a></p>
-        <p class="meta">Skapat <span class="datetime">2010-08-27 14:00</span> <span class="tags">Tags: <a href="#">Ruby</a>, <a href="#">Modern</a>, <a href="#">Free</a></span></p>
-        <p class="tools">Dela med via <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
-      </div>
+    <div class="clear"></div>
 
-      <small>Tidigare:</small>
-      <div id="previous">
-        <ul>
-          <li><h2><span class="date">2010-08-25</span> <a href="#">Komplett källkodshandering med Git.</a></h2></li>
-          <li><h2><span class="date">2010-07-20</span> <a href="#">Vaför stänger dom Google Wave?</a></h2></li>
-          <li><h2><span class="date">2010-05-05</span> <a href="#">En födelsedag som jag inte kommer glömma.</a></h2></li>
-      </div>
-    </div>
+    <div id="item-pick"></div>
 
+    <div id="content">
+      <div id="card-slider">
+        <div id="me" class="card">
+          <div>
+            <h2>Andreas Wålm</h2>
+            <p>I’m a 31 year old developer, engineer, consultant, entrepreneur from Stockholm, Sweden. And proud father of a one year old son Theo.
+            <p>“Make things as simple as possible, but not simpler” – Albert Einstein
+          </div>
+        </div>
 
-    <div id="sidebar">
-      <small>Twitter:</small>
-      <div id="twitter">
-        <p>Hey! Check out my new blogg, hope you like it!</p>
-        <p class="meta"><span class="datetime">30 min sedan</span></p>
-        <p class="tools"><a href="http://twitter.com/walming">Follow me!</a></p>
-      </div>
+        <div id="work" class="card">
+          <a href="http://www.jajdo.se"><img src="/images/work-jajdo.jpg" alt="Jajdo - apps giving kids a brighter future"></a>
+        </div>
 
-      <small>Flickr:</small>
-      <div id="flickr">
-        <ul>
-          <li><div class="image"><a href="#1"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#2"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#3"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#4"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-        </ul>
-        <p class="tools"><a href="#">More</a></p>
-      </div>
+        <div id="contact" class="card">
+          <iframe height="435" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none;"  src="http://walm.wufoo.com/embed/q7x3s5/"><a href="http://walm.wufoo.com/forms/q7x3s5/" title="Contact me" rel="nofollow">Fill out my Wufoo form!</a></iframe>
+        </div>
+      </div> <!--! end #card-slider -->
 
-      <small>Zootools:</small>
-      <div id="zootools">
-        <ul>
-          <li><div class="image"><a href="#"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-          <li><div class="image"><a href="#"><img src="http://dummyimage.com/80x80/ccc/fff.jpg" border="0" title="a image"/></a></div></li>
-        </ul>
-        <p class="tools"><a href="#">More</a></p>
-      </div>
-
-    </div>
+      <div id="footer">
+        <div id="feed">
+          <div class="icon twitter" title="Twitter"><a href="http://twitter.com/walming">Twitter</a></div>
+          <div class="text"></div>
+          <div class="time"></div>
+        </div>
+        <div id="links">
+          <div class="icon flickr" title="flickr"><a href="http://www.flickr.com/photos/walm/">Flickr</a></div>
+          <div class="icon facebook" title="Facebook"><a href="http://www.facebook.com/andreas.walm">Facebook</a></div>
+        </div>
+      </div> <!--! end #footer -->
+    </div> <!--! end #content -->
 
     <footer>
-      <p>&copy; Andreas W&aring;lm 1979-&lsquo;10, inspiererad av så många, ikoner fr&aring;n <a href="http://www.komodomedia.com" taget="_blank">www.komodomedia.com</a> byggd med <a href="#">Jekyll</a></p>
-    </footer>
-
+    Hosted on <a href="http://pages.github.com/" target="_blank">GitHub pages</a>, <a href="http://www.google.com/chrome">Designed for awesome browsers</a>, &copy; 1979-2011 Andreas Wålm</footer>
   </div> <!--! end of #container -->
 
-
   <!-- Javascript at the bottom for fast page loading -->
-
-  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
-
-
-  <script src="js/plugins.js?v=1"></script>
-  <script src="js/script.js?v=1"></script>
-
-  <!--[if lt IE 7 ]>
-    <script src="js/dd_belatedpng.js?v=1"></script>
-  <![endif]-->
-
-
-  <!-- yui profiler and profileviewer - remove for production -->
-  <script src="js/profiling/yahoo-profiling.min.js?v=1"></script>
-  <script src="js/profiling/config.js?v=1"></script>
-  <!-- end profiling code -->
-
-
-  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
-       change the UA-XXXXX-X to be your site's ID -->
   <script>
-   var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-   (function(d, t) {
-    var g = d.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s);
-   })(document, 'script');
+    head.js("/js/main.js?v7");
   </script>
 
 </body>

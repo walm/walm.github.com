@@ -1,4 +1,6 @@
+.sass-cache
 .bundle
 _site/
 drafts/
 Gemfile.lock
+images/src/

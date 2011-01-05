@@ -2,103 +2,82 @@
 base_url: http://andreas.walm.se
 ---
 <!doctype html>
-<html lang="sv" class="no-js">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
 
+  <!-- Always force latest IE rendering engine & Chrome Frame -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{{ page.title }}</title>
-  <meta name="description" content="Saker som intresserar webbutvecklare och tekniknördar, ja såna som jag, Andreas Wålm">
+  <title>Andreas Wålm</title>
+  <meta name="description" content="Andreas Wålm - developer, engineer, consultant and entrepreneur from Stockholm, Sweden">
   <meta name="author" content="Andreas Wålm">
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  {% if page.debug %}
-  <link rel="stylesheet" href="/css/style.css?v=1">
-  <link rel="stylesheet" href="/css/syntax.css?v=1">
-  {% else %}
-  <link rel="stylesheet" href="/css/all.min.css?v=1">
-  {% endif %}
+  <link rel="stylesheet" href="/css/screen.min.css">
 
-  <script src="/js/modernizr-1.5.min.js"></script>
-
+  <script src="/js/head.min.js"></script>
 </head>
+<body>
 
-<!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
-
-  <div id="toolbar"></div>
-
-  <div id="container" class="type-{{ page.type }}">
+  <div id="container">
     <header>
-    <h1 class="notrans"><a href="/">Andreas W&aring;lm</a></h1>
-      <form action="http://www.google.se/search" method="get">
-        <input type="hidden" name="as_sitesearch" value="{{ page.base_url || replace:'http://', '' }}"/>
-        <input type="text" name="as_q" id="searchbox" value="Sök via google.."/>
-      </form>
-      <h2>webbutvecklare och teknikn&ouml;rd</h2>
-
-      <div id="menu">
-      <ul>
-        <li><a href="/" {% if page.type == 'home' %}class="active"{% endif %}>Hem</a></li>
-        <li><a href="/about.html" {% if page.url contains 'about.html' %}class="active"{% endif %}>Om</a></li>
-        <li><a href="/contact.html" {% if page.url contains 'contact.html' %}class="active"{% endif %}>Kontakta</a></li>
-      </ul>
-      </div>
+      <h1><a href="/" rel="me">Andreas Wålm</a></h1>
     </header>
 
-    <div id="main">
+    <nav>
+      <ul>
+        <li><a href="/" rel="me" class="current">Me</a>
+        <li><a href="/work.html" rel="work" >Work</a>
+        <li><a href="/contact.html" rel="contact" >Contact</a>
+      </ul>
+    </nav>
 
-      {{ content }}
+    <div class="clear"></div>
 
-    </div>
+    <div id="item-pick"></div>
 
-    <div id="sidebar" style="display:none;">
-      <small>Twitter:</small>
-      <div id="twitter" class="notrans">
-        <p class="tools"><a href="http://twitter.com/walming">Follow me!</a></p>
-      </div>
+    <div id="content">
+      <div id="card-slider">
+        <div id="me" class="card">
+          <div>
+            <h2>Andreas Wålm</h2>
+            <p>I’m a 31 year old developer, engineer, consultant, entrepreneur from Stockholm, Sweden. And proud father of a one year old son Theo.
+            <p>“Make things as simple as possible, but not simpler” – Albert Einstein
+          </div>
+        </div>
 
-      <small>Flickr:</small>
-      <div id="flickr">
-        <ul></ul>
-        <p class="tools"><a href="http://www.flickr.com/photos/walm/" target="_blank">More »</a></p>
-      </div>
+        <div id="work" class="card">
+          <a href="http://www.jajdo.se"><img src="/images/work-jajdo.jpg" alt="Jajdo - apps giving kids a brighter future"></a>
+        </div>
 
-      <small>Zootools:</small>
-      <div id="zootools">
-        <ul></ul>
-        <p class="tools"><a href="http://zootool.com/user/walming/" target="_blank">More »</a></p>
-      </div>
+        <div id="contact" class="card">
+          <iframe height="435" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none;"  src="http://walm.wufoo.com/embed/q7x3s5/"><a href="http://walm.wufoo.com/forms/q7x3s5/" title="Contact me" rel="nofollow">Fill out my Wufoo form!</a></iframe>
+        </div>
+      </div> <!--! end #card-slider -->
 
-    </div>
+      <div id="footer">
+        <div id="feed">
+          <div class="icon twitter" title="Twitter"><a href="http://twitter.com/walming">Twitter</a></div>
+          <div class="text"></div>
+          <div class="time"></div>
+        </div>
+        <div id="links">
+          <div class="icon flickr" title="flickr"><a href="http://www.flickr.com/photos/walm/">Flickr</a></div>
+          <div class="icon facebook" title="Facebook"><a href="http://www.facebook.com/andreas.walm">Facebook</a></div>
+        </div>
+      </div> <!--! end #footer -->
+    </div> <!--! end #content -->
 
     <footer>
-    <p>&copy; <span class="notrans">Andreas W&aring;lm</span> 1979-&lsquo;10, inspiererad av s&aring; m&aring;nga, byggd med <a href="http://github.com/mojombo/jekyll" target="_blank">Jekyll</a> på <a href="http://pages.github.com/" target="_blank">GitHub pages</a>.</p>
-    <a href="http://github.com/walm"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-    </footer>
-
+    Hosted on <a href="http://pages.github.com/" target="_blank">GitHub pages</a>, <a href="http://www.google.com/chrome">Designed for awesome browsers</a>, &copy; 1979-2011 Andreas Wålm</footer>
   </div> <!--! end of #container -->
 
-  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="/js/jquery-1.4.2.min.js"><\/script>')</script>
-
-  {% if page.debug %}
-  <script src="/js/plugins.js?v=1"></script>
-  <script src="/js/script.js?v=1"></script>
-  {% else %}
-  <script src="/js/all.min.js?v=1"></script>
-  {% endif %}
-
-  <!--[if lt IE 7 ]>
-    <script src="js/dd_belatedpng.js?v=1"></script>
-  <![endif]-->
+  <script>
+    head.js("/js/all.min.js");
+  </script>
 
   <script>
    var _gaq = [['_setAccount', 'UA-430739-2'], ['_trackPageview']];
