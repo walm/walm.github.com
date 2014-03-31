@@ -1,0 +1,215 @@
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  height: 100%;
+  margin: 0;
+  background: #efefef;
+  font-family: "Avenir Next", "Avenir", "Helvetica Neue", helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale; }
+
+h2 {
+  font-weight: 100;
+  font-size: 50px;
+  opacity: 0.8;
+  margin: 10% auto; }
+
+h4 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 5% auto;
+  opacity: 0.8; }
+
+img {
+  border: none; }
+
+strong {
+  font-weight: 700; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.columns {
+  max-width: 1000px;
+  margin: 0 auto;
+  clear: both; }
+  .columns.three .column {
+    width: 33.3%;
+    min-width: 200px;
+    max-width: 330px; }
+  .columns .column {
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+    float: left; }
+    .columns .column p {
+      opacity: 0.7; }
+    .columns .column .links {
+      margin-top: 40px;
+      text-align: center; }
+
+.project h2 {
+  font-size: 60px;
+  color: #fff; }
+.project img {
+  width: 100%; }
+.project .column {
+  text-align: left;
+  color: #fff;
+  padding-left: 20px; }
+
+#back_to_top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 10px;
+  opacity: 0.5; }
+  #back_to_top:hover {
+    opacity: 1; }
+
+#header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 3;
+  overflow: hidden;
+  font-size: 14px;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 228, 229, 0.4)), transparent; }
+  #header h1 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-left: 40px; }
+    #header h1 a {
+      color: #fff;
+      opacity: 0.7;
+      text-decoration: none;
+      transition-property: all;
+      transition-duration: 0.2s; }
+      #header h1 a:hover {
+        opacity: 1; }
+
+#content {
+  height: 100%;
+  width: 100%; }
+
+a.button {
+  border: solid 1px;
+  border-radius: 4px;
+  padding: 10px 25px;
+  margin: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s; }
+  a.button:hover {
+    background: rgba(255, 255, 255, 0.1); }
+
+article {
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle; }
+  article > .inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px 0; }
+
+#me {
+  background: linear-gradient(#656D78, #434A54), #656D78;
+  color: #fff; }
+  #me h2, #me h4 {
+    margin: 40px auto; }
+  #me p {
+    font-weight: 100;
+    margin-bottom: 70px; }
+  #me img {
+    border: solid 4px #fff;
+    border-radius: 50%; }
+
+#knowledge {
+  background: linear-gradient(#AC92EC, #967ADC), #AC92EC; }
+  #knowledge h2 {
+    color: #fff; }
+  #knowledge ul {
+    margin: 0;
+    padding: 0; }
+    #knowledge ul > li {
+      color: #fff;
+      opacity: 0.8;
+      list-style: none; }
+
+#current {
+  background: linear-gradient(#F5F7FA, #E6E9ED), #F5F7FA; }
+  #current img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7; }
+  #current a.button {
+    color: #333; }
+    #current a.button:hover {
+      background: rgba(0, 0, 0, 0.1); }
+
+#starty {
+  background: linear-gradient(#5D9CEC, #4A89DC), #5D9CEC; }
+  #starty img {
+    opacity: 0.75; }
+
+#reve {
+  background: linear-gradient(#ED5565, #DA4453), #ED5565; }
+  #reve img {
+    width: 50%; }
+
+#jajdo {
+  background: linear-gradient(#FFCE54, #F6BB42), #FFCE54; }
+  #jajdo .columns {
+    clear: none; }
+  #jajdo img {
+    width: 50%;
+    float: left; }
+
+#contact {
+  background: linear-gradient(#48CFAD, #37BC9B), #48CFAD; }
+
+@media only screen and (max-width: 640px) {
+  h2 {
+    font-size: 30px; }
+  h4 {
+    font-size: 18px; }
+  article {
+    font-size: 16px; }
+  a.button {
+    font-size: 13px; }
+  #me img {
+    width: 20%; } }
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%; }
+    .columns .column {
+      float: none;
+      margin: 40px auto; }
+  #me a.button, #contact a.button {
+    display: block;
+    width: 60%;
+    margin: 20px auto; }
+  #reve img {
+    width: 100%; }
+  #jajdo img {
+    float: none;
+    width: 100%; }
+  #jajdo .columns {
+    clear: both; } }
